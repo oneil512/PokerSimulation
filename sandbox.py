@@ -3,6 +3,6 @@ from src.utils import *
 
 player = Player()
 
-table_cards_three = ['H_1', 'D_1', 'C_1']
+table_cards_three = ['H_2', 'D_4', 'C_1']
 player.hand = ['H_5', 'H_6']
-print(getCardNum(player.check_pair(table_cards_three)))
+print(player.calc_pair_prob(table_cards_three))
